@@ -1,0 +1,37 @@
+.navbar {
+  background-color: black;
+  color: aliceblue;
+  padding: 15px;
+  font-family: macondo;
+  letter-spacing: 1px;
+  font-weight: bolder;
+}
+
+body {
+  font-family: macondo;
+}
+
+.left-column {
+  max-width: 50%;
+  float: left;
+}
+
+.left-column > img {
+  width: 600px;
+}
+
+.right-column {
+  flex-direction: column;
+  max-width: 50%;
+  float: right;
+  justify-content: center;
+  align-items: center;
+  margin: 200px;
+  margin-top: 25%;
+}
+
+.right-column > div > h1 {
+  font-weight: 900;
+  letter-spacing: 2px;
+  margin: 30px;
+}
